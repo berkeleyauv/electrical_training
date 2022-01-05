@@ -76,6 +76,10 @@ pinouts usually change here
 
 DRC
 
+lsm6dsm violates min but that's probs fine, accel placement matters too, via in pad
+
+power should be a tree, no loops, silkscreen
+
 ## Manufacturing
 
 gerbers and drill files, popular manufacturers

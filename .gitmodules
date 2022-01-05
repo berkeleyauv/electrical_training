@@ -1,0 +1,3 @@
+[submodule "reference_solution/board/extraparts"]
+	path = reference_solution/board/extraparts
+	url = https://github.com/dragonlock2/extraparts.git
