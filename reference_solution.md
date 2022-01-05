@@ -40,7 +40,7 @@ In our case, we're going to keep things simple. It'll be USB powered only. Looki
 
 For most microcontrollers and even microprocessors and FPGAs, getting them working boils down to completing the following sections.
 
-- **Power** - what voltages and currents does it need? how about power sequencing?
+- **Power** - what voltages and currents does it need? how about power sequencing? any internal supplies need external capacitors?
 - **Strapping** - a.k.a. boot or bootstrapping, are there any pins that need to be configured to get the desired behavior such as booting from flash?
 - **Clocks** - are there any required input clocks or is the common internal oscillator adequate? is there a required accuracy?
 - **Programming** - how will the device be programmed? via SWD/JTAG or a bootloader?
@@ -49,6 +49,10 @@ For most microcontrollers and even microprocessors and FPGAs, getting them worki
 <p align="center">
     <img height="200px" src="TODO"/>
 </p>
+
+if using micro periph like consider which pins it's available, usb need accurate clock
+
+reference manual also useful, sometimes want flexibility
 
 ### Accelerometer
 
@@ -62,9 +66,15 @@ Getting most peripheral chips working involves the exact same steps as getting a
     <img height="200px" src="TODO"/>
 </p>
 
+ERC
+
 ## Layout
 
 footprint assignment, board stackup, noise, pours, thermals, trace width/space
+
+pinouts usually change here
+
+DRC
 
 ## Manufacturing
 
@@ -77,8 +87,3 @@ solder techniques
 zephyr
 
 ## Test!
-
-f401, lsm6dsm, usb powered, leds, button, interrupt pins
-
-osbridge
-    usb, boot button, rst button, swd/uart debug, spi/i2c/uart conn
