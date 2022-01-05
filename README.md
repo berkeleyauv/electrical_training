@@ -14,4 +14,4 @@ This project is meant to be a fun exploration in problem solving so we're not go
 - Allow for setting a target angle
 - Indicate when the measured angle is within 1° of the target angle
 
-With those requirements, let's take a look at the [reference solution](reference_solution.md). Of course, you are welcome to make your own.
+With those requirements, let's take a look at the [reference solution](reference_solution.md). Of course, you are welcome (and encouraged) to make your own.
