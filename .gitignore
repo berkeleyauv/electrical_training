@@ -21,6 +21,8 @@
 *-backups
 *.kicad_prl
 
+bom/
+
 # FW
 *.o
 *.a
