@@ -4,9 +4,9 @@ Hello there! Welcome to UR@B electrical team! UR@B Electrical training will intr
 
 > "*Note: Feel free too ask/wait for a electrical team member to help you when working on this training to prevent frustration.*"
 
-> "*Note: If you already feel comfortable with all the concepts below, feel free to skip this whole training all together.*"
+> "*Note: If you already feel comfortable with all the concepts below, feel free to skip this whole training all together and work on the project*"
 
-### Pre-requities:
+### Prerequisites:
 - None
 
 At the end of the training, you will know: 
@@ -89,7 +89,7 @@ Power supply unit provide a voltage source.
 Measures Voltage, Current, and Resistance.
 
 ### Oscilloscope
-Mainly used for tracking "signals". Oscilloscope is a multimeter but able to provide a graph of voltage over time. 
+Mainly used for tracking "signals". Signals are just voltage values. Oscilloscope is a multimeter but is able to provide a graph of the signal over time. 
 
 </details>
 
@@ -324,7 +324,7 @@ N/A
 
 </details>
 
-> Checkpoint: Blinking LED and showing the Serial Monitor (Optional)
+> Checkpoint: Blinking LED and showing the Serial Monitor
 
 # PCB ECAD Tools - KICAD - Part 4
 
@@ -366,7 +366,7 @@ Here are some keywords that outlines the steps to make a design work:
 3. Bringup
 4. Implementation
 
-# Bringing it all together... (OPTIONAL - NOT MANDATORY)
+# Project: Bringing it all together... (OPTIONAL)
 To see an example, see: [Example](./example_design/README.md)
 <p align="center">
     <img src="./imgs/example_design/block.png"/>
