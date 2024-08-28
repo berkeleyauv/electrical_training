@@ -6,11 +6,14 @@ Hello there! Welcome to UR@B electrical team! UR@B Electrical training will intr
 
 > "*Note: If you already feel comfortable with all the concepts below, feel free to skip this whole training all together.*"
 
+### Pre-requsites:
+- None
+
 At the end of the training, you will know: 
 
 1. Basic Circuit (Electronic) Concepts
-1. Basic Firmware
-2. Basic Printed Circuit Board Design (PCB) CAD Tools 
+2. Basic Firmware
+3. Basic Printed Circuit Board Design (PCB) CAD Tools 
 
 ### High Level View:
 <p align="center">
@@ -25,28 +28,75 @@ In the electrical team, you will be creating the electronics and the associated 
 > "*Note: For each part, click on the dropdown to show the content.*"
 
 
-### Prelab: Electronics (Hardware) - Part 1
+# Prelab: Electronics (Hardware) - Part 1
 
 You will learn about the concept of ground, voltage, current and various machine tools used in electrical engineering. 
 
 <details>
 <summary>Electronics Dropdown</summary>
 
-#### Reference Point (Ground) 
+## Current
+Current is the rate at which electrons (particles) flow. Remember that particles are physical in nature. 
 
-#### Voltage 
+## Voltage 
+Particles will stay still unless there is enough pressure to get them moving. Voltage is the difference in electric potential energy between two points. 
+It is the **"Push"** that gives pressure to push electrons (particles) through a circuit. 
 
-#### Current
+## Reference Voltage (Ground) 
+<p align="center">
+    <img height="200px" src="./imgs/reference_mountain.png"/>
+</p>
+Reference voltage commonly referred to as **ground** is a value that can be used with respect to everything else. 
+One example is that "Earth ground" can be used as the reference voltage but most times the reference voltage is relative to the application. 
 
-#### Power Supply
+</br>
 
-#### Multimeter
+**"Common" ground** is the reference voltage that is shared across
+the whole application. 
 
-#### Oscilloscope
+> **V_GND = 0 V**
 
-#### Lab: An Application-LED (Optional)
+Most times, zero volts are used as the reference voltage to make calculations easier.  
+
+Note that the reference voltage may not necessarily be 0 volts, It can be any value as long as the circuit designer is consistent. 
+
+## Resistance
+Resistance is the opposition to the flow of current. Everything has resistance including wires itself. 
+
+## Ohm Law
+<p align="center">
+    <img height="200px" src="./imgs//Ohms-law.jpg"/>
+</p>
+Image Credits: Build-electronics-circuit / Oyvind Nydal Dahl
+
+</br>
+
+Bringing it all together with Ohm's Law.  
+
+> Voltage = Current * Resistance
+ 
+> Current = Voltage / Resistance
+
+> Resistance = Voltage / Current 
+
+## Hardware Equipment
+> Note: Please ask if you are interested in getting hands on experience with these machines.
+
+### Power Supply Unit
+Power supply unit provide a voltage source. 
+
+### Multimeter
+Measures Voltage, Current, and Resistance.
+
+### Oscilloscope
+Mainly used for tracking "signals". Oscilloscope is a multimeter but able to provide a graph of voltage over time. 
+
+## Lab: An Application-LED (Optional)
+> Note: Please ask if you are interested in doing the LED application. It is a simple lab that walks you through how to get a LED to work.
+
 </details>
 
+> Checkpoint: No Checkpoint for Part 1
 
 ## Firmware (Software) - Part 2
 > "*Note: Feel free too ask/wait for a electrical team member to help you when working on this to prevent frustration.*"
@@ -99,6 +149,8 @@ Some Command Line
 
 </details>
 
+> Checkpoint: Blinking LED
+
 ## PCB ECAD Tools - KICAD - Part 3
 
 Instead of using prototyping boards like stripboards and breadboards, you will now create a "PCB" which makes your electronics much more versatile. Instead of wires failing off, the wires can't fall off printed circuit boards. Like how 3D Printing design uses CAD tools like Solidworks, electrical engineers use electronic computer aided design (ECAD) like KiCad. 
@@ -124,11 +176,14 @@ If the link does not work, please search for: IEEE Berkeley HOPE Decal
     <img src="./imgs/hope_decal_schedule.png"/>
 </p>
 
-> "*Completion: The DRC for both schematic/layout should show no errors.*"
+</details>
+
+> Checkpoint: The DRC for both schematic/layout should show no errors. DRC - Design Rule Checker.
 
 # Design
-We did not at all cover the "Design" aspect of electrical engineering, searching for answers through your coursework and using search engines are the best way too learn "Design".
+We did not at all cover the "Design" aspect of electrical engineering, searching for answers through your coursework, using search engines, and asking questions are the best way to learn "Design". 
 
+Here are some keywords that outlines the steps to make a design work:
 1. Planning
 2. Tapeout
 3. Bringup
@@ -145,4 +200,4 @@ To see an example, see: [Example](./example_design/README.md)
 ### Software:
 
 #### Git/Github
-Please see:
+If you need help setting up Git/Github, use a search engine and search for "CS 61B Lab01: Setup" Lab. 
