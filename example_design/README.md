@@ -1,4 +1,4 @@
-## Old: Project Statement
+## Project Statement
 
 - Build a device that mimics the "Level" feature in the iOS Measuring app
 
