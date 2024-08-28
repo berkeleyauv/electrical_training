@@ -115,12 +115,14 @@ Additionally, to make the LED work, you need to add a resistor. The point of the
 
 > Checkpoint: No Checkpoint for Part 2
 
-# Firmware (Software) - Part 3
+# Firmware (Software) and Toolchain Overview - Part 3
 > "*Note: Feel free too ask/wait for a electrical team member to help you when working on this to prevent frustration.*"
 
 > Note: You will need access to a RP2040 microcontroller with a LED.
 
-#### Diagram: TODO...
+<p align="center">
+    <img src="./imgs/toolchain_overview.png"/>
+</p>
 
 With the **RP2040** microcontroller which is part of the Raspberry Pi brand. 
 
