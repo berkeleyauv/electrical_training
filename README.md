@@ -375,9 +375,18 @@ To see an example, see: [Example](./example_design/README.md)
 </p>
 
 # Notes
-The training and project is not meant to be comprehensive. Hopefully the training and project is used as a launchpad for you to further investigate engineering.
+The training and project is not meant to be comprehensive. Hopefully the training and project is good enough as a launchpad for you to further investigate engineering.
 
 ### Software:
 
 #### Git/Github
 If you need help setting up Git/Github, use a search engine and search for "CS 61B Lab01: Setup" Lab. 
+
+#### Command Line
+If you need help with command related issues, please search for answers online. 
+
+#### Understanding C 
+If you need help with C language, please refer too https://inst.eecs.berkeley.edu/~cs61c/sp21/resources-pdfs/garcia_c_reference_slides.pdf 
+
+#### Understanding CMake/Make - Build tools
+If you need help with understanding CMake/Make then please search for the answers online. CMake/Make are just build tools. Instead of manually typing alot of commands, Make is able to "build" the code to a binary (.elf) file for you to use. CMake creates the "Make" file. 
