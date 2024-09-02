@@ -146,7 +146,7 @@ If you need help with understanding CMake/Make then please search for the answer
 ## Development Environment Setup
 Setting up Ubuntu with VMWare Workstation Virtual Desktop 
 
-1.  Download VMWare Workstation Pro from broadcom.com
+1.  Download VMWare Workstation Pro or VMWare Fusion Pro for MAC from broadcom.com, you can also use other virtualization software like VirtualBox 
 2.  Download Ubuntu24.04 LTS ISO
 3.  Add the Ubuntu to VMWare
 4. Command Line: 
