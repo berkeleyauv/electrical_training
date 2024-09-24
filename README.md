@@ -194,12 +194,12 @@ Some Command Line Commands: https://www.git-tower.com/blog/command-line-cheat-sh
 
 ## Creating your first RP2040 Project
 1. Goto the `development` directory. If you are in `/program_files`, then run `cd ../development` 
-2. Fork and Clone the training repo that belongs to you. `gh repo clone <github_username>/electrical_training`
+2. Clone the training repo that belongs to you. 
    1. Goto `https://github.com/berkeleyauv/electrical_training` and find the "fork" button which is close to the `green <> Code` button. 
-   2. Clone the training repo. The repo shouldn't belong to `berkeleyauv`
+   2. Clone the training repo.
 3. Login and authenticate yourself by doing `gh auth login` 
-4. Alternatively: Instead of forking, Create your own branch `first/lastname` and run `git checkout first/lastname` 
-   1. Permissions issues may be created due too `berkeleyauv/electrical-training`
+4. Create your own branch `first/lastname` and run `git checkout first/lastname` 
+   1. Disclaimer: Permissions issues may be created due too `berkeleyauv/electrical-training` being protected so you may not be able to 'push'. Please let us now if this happens.  
 5.  Note: When you want to `"save"`, run `git add .` then `git commit -m "whatever message you want"` and run `git push origin <your own branch or just main>`
     1. If you have forked, then push to "main"
     2. If you have created a branch, then push to the "branch"
@@ -291,9 +291,9 @@ Some Command Line Commands: https://www.git-tower.com/blog/command-line-cheat-sh
     <img height="200px" src="./imgs//rp2040_usb_boot.png"/>
 </p>
 
-18. Run `picotool load -x blink.elf`
+1.  Run `picotool load -x blink.elf`
 
-19. Congratulations! The LED should be blinking.
+2.  Congratulations! The LED should be blinking.
 
 For more examples, see: https://github.com/raspberrypi/pico-examples.git
 
