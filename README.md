@@ -190,7 +190,7 @@ Some Command Line Commands: https://www.git-tower.com/blog/command-line-cheat-sh
       1. run `export PICO_SDK_PATH=`pwd`
       2. run `echo "export PICO_SDK_PATH=$PICO_SDK_PATH" >> ~/.profile`
    2. Alternative Method: 
-      1. In terminal: `vim ~/.basrhc`
+      1. In terminal: `vim ~/.bashrc`
       2. Use `pwd` to figure out what the absolute path to the pico-sdk
       3. Add `EXPORT PICO_SDK_PATH=”/home/<ubuntuname>/program_files/pico-sdk"` to the end of the file.
    
@@ -290,7 +290,7 @@ Some Command Line Commands: https://www.git-tower.com/blog/command-line-cheat-sh
         pico_add_extra_outputs(blink)
     ```
 
-12. Create a `build` directory. run `mkdir build`
+12. Create a `build` directory in the blink RP2040 Project directory. run `mkdir build`
 13. cd into `build`
 14. run `cmake ..`
 15. run `make`
@@ -356,6 +356,12 @@ IEEE @ Berkeley has created a awesome decal (course) on printed circuit board de
 See HOPE Decal- https://ieee.berkeley.edu/hope/
 If the link does not work, please search for: IEEE Berkeley HOPE Decal
 <br>
+
+<h1>Disclaimer: We use "Altium Designer" </h1>
+<b>But doing the training in KiCad is much easier. Altium is just another
+ECAD tool but it isn't that intuitive to use. </b>
+
+</br>
 
 **For underwater robotics, Please do the following content and associated labs:**
 1. Install Kicad
