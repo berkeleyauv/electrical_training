@@ -128,11 +128,25 @@ With the **RP2040** microcontroller which is part of the Raspberry Pi brand.
 
 <details>
 <summary>Firmware (Software) Dropdown</summary>
+    
+> Prerequisites: These topics can be learned on the "job".
+
+#### Git/Github
+If you need help setting up Git/Github, use a search engine and search for "CS 61B Lab01: Setup" Lab. 
+
+#### Command Line
+If you need help with command related issues, please search for answers online. 
+
+#### Understanding C 
+If you need help with C language, please refer to https://inst.eecs.berkeley.edu/~cs61c/sp21/resources-pdfs/garcia_c_reference_slides.pdf 
+
+#### Understanding CMake/Make - Build tools
+If you need help with understanding CMake/Make then please search for the answers online. CMake/Make are just build tools. Instead of manually typing alot of commands, Make is able to "build" the code to a binary (.elf) file for you to use. CMake creates the "Make" file. 
 
 ## Development Environment Setup
 Setting up Ubuntu with VMWare Workstation Virtual Desktop 
 
-1.  Download VMWare Workstation Pro from broadcom.com
+1.  Download VMWare Workstation Pro or VMWare Fusion Pro for MAC from broadcom.com, you can also use other virtualization software like VirtualBox 
 2.  Download Ubuntu24.04 LTS ISO
 3.  Add the Ubuntu to VMWare
 4. Command Line: 
@@ -377,16 +391,5 @@ To see an example, see: [Example](./example_design/README.md)
 # Notes
 The training and project is not meant to be comprehensive. Hopefully the training and project is good enough as a launchpad for you to further investigate engineering.
 
-### Software:
+# Other:
 
-#### Git/Github
-If you need help setting up Git/Github, use a search engine and search for "CS 61B Lab01: Setup" Lab. 
-
-#### Command Line
-If you need help with command related issues, please search for answers online. 
-
-#### Understanding C 
-If you need help with C language, please refer too https://inst.eecs.berkeley.edu/~cs61c/sp21/resources-pdfs/garcia_c_reference_slides.pdf 
-
-#### Understanding CMake/Make - Build tools
-If you need help with understanding CMake/Make then please search for the answers online. CMake/Make are just build tools. Instead of manually typing alot of commands, Make is able to "build" the code to a binary (.elf) file for you to use. CMake creates the "Make" file. 
