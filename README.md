@@ -12,8 +12,7 @@ Hello there! Welcome to UR@B electrical team! UR@B Electrical training will intr
 At the end of the training, you will know: 
 
 1. Basic Circuit (Electronic) Concepts
-2. Basic Firmware
-3. Basic Printed Circuit Board Design (PCB) CAD Tools 
+2. Basic Printed Circuit Board Design (PCB) CAD Tools 
 
 ### High Level View:
 <p align="center">
