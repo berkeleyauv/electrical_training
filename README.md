@@ -153,12 +153,6 @@ Here are some keywords that outlines the steps to make a design work:
 3. Bringup
 4. Implementation
 
-# Project: Bringing it all together... (OPTIONAL)
-To see an example, see: [Example](./example_design/README.md)
-<p align="center">
-    <img src="./imgs/example_design/block.png"/>
-</p>
-
 # Notes
 The training and project is not meant to be comprehensive. Hopefully the training and project is good enough as a launchpad for you to further investigate engineering.
 
