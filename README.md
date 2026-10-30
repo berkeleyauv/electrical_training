@@ -116,7 +116,7 @@ Instead of using prototyping boards like stripboards and breadboards, you will n
 
 To get used to the KiCad ECAD software, please follow the HOPE course. 
 #### Hands on PCB Engineering (HOPE) | IEEE @ Berkeley
-IEEE @ Berkeley has created a awesome decal (course) on printed circuit board design. All content and credits goes to staff at the Hope Decal
+IEEE @ Berkeley has created an awesome decal (course) on printed circuit board design. All content and credit goes to HOPE staff!
 
 See HOPE Decal- https://ieee.berkeley.edu/hope/
 If the link does not work, please search for: IEEE Berkeley HOPE Decal
